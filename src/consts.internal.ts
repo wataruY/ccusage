@@ -4,7 +4,7 @@ import { homedir } from 'node:os';
  * URL for LiteLLM's model pricing and context window data
  */
 export const LITELLM_PRICING_URL
-	= 'https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json';
+  = 'https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json';
 
 /**
  * Default number of recent days to include when filtering blocks
@@ -40,7 +40,7 @@ export const DEBUG_MATCH_THRESHOLD_PERCENT = 0.1;
  * Default Claude data directory path (~/.claude)
  * Used as base path for loading usage data from JSONL files
  */
-export const DEFAULT_CLAUDE_CODE_PATH = '.claude';
+export const DEFAULT_CLAUDE_CODE_PATH = '.config/claude';
 
 /**
  * Claude projects directory name within the data directory
